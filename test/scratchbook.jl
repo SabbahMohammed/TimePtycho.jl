@@ -4,7 +4,7 @@ import PyPlot: plt, pygui
 import Random: randn
 pygui(true)
 
-τ, ω, trace, target = TimePtycho.mock_trace_SHG(
+τ, ω, t, trace, target = TimePtycho.mock_trace_SHG(
     10e-15, 800e-9, 100e-15, 0, 4e15;
     dispersion=[10e-30, 800e-45],
     Nτ=501)
